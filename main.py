@@ -2,7 +2,7 @@
 
 # OBJECTIF: PRATIQUER SUR LA POO
 # TRAVAILLER SUR DU CODE EXISTANT
-# MENER UN RAISONNEMENT
+
 
 """
 Exercice 1: définir les entitées 
