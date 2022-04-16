@@ -6,7 +6,11 @@
 
 """
 Exercice 1: définir les entitées 
+<<<<<<< HEAD
 Exercice 2: créer la classe Question et la tester
+=======
+Exercice 2: créer la classe Question et tester que ça fonctionne
+>>>>>>> 90ffd6ffcee2123430c112353d9c04bd0ec83672
 Exercice 3: implémenter la classe Questionnaire
 """
 
