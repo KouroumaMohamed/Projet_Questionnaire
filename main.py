@@ -1,28 +1,12 @@
-# PROJET QUESTIONNAIRE V3 : POO
+# PROJET QUESTIONNAIRE  : POO
 
 # OBJECTIF: PRATIQUER SUR LA POO
 # TRAVAILLER SUR DU CODE EXISTANT
 # MENER UN RAISONNEMENT
 
 """
-Exercice 1: définir les entitées (données, actions) sous forme de commentaires
-- créer la classe Questionnaire qui va contenir les données
-- créer les différentes méthodes demander_reponse_numerique_utilisateur, poser_question
-et lancer_questionnaire
-
-Analyse prof:
-on aura une premiere entité:   Question:
-                                    - titre    -str
-                                    -choix     -(str)  type tuple
-                                    -bonne reponse    -str
-
-                                    -poser_question() --> rep un bool
-
-une deuxième entité ou class: Questionnaire
-                                    - questions    -(question) type tuple
-
-                                    -Lancer_questionnaire()
-Exercice 2: créer la classe Question et tester que ça fonctionne
+Exercice 1: définir les entitées 
+Exercice 2: créer la classe Question et la tester
 Exercice 3: implémenter la classe Questionnaire
 """
 
@@ -74,24 +58,12 @@ class Questionnaire:
                 score += 1
         print("Score final:", score, "sur", len(self.questions))
 
-# def lancer_questionnaire(questions):
-#     score = 0
-#     for question in questions:
-#         if poser_question(question):
-#             score += 1
-#     print("Score final:", score, "sur", len(questions))
 
-
-# Données
 questions = (Question("Quelle est la capitale de la France ?", ("Marseille", "Nice", "Paris", "Nantes", "Lille"), "Paris"),
              Question("Quelle est la capitale de l'Italie ?", ("Rome", "Venise", "Pise", "Florence"), "Rome"),
              Question("Quelle est la capitale de la Belgique ?", ("Anvers", "Bruxelles", "Bruges", "Liège"), "Bruxelles"))
 
 
-# lancer_questionnaire(questionnaire)
-
-# q1 = Question("Quelle est la capitale de la France ?", ("Marseille", "Nice", "Paris", "Nantes", "Lille"), "Paris")
-# q1.poser()
 
 q2 = Questionnaire(questions)
 q2.lancer_questionnaire()
